@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "rootDir": "src",
+    "lib": ["dom", "es2019"],
+    "jsx": "react",
+    "plugins": [
+      {
+        "transform": "ts-auto-mock/transformer",
+        "cacheBetweenTests": false
+      }
+    ],
+    "declaration": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "noEmit": true,
+    "declarationDir": "./build/dist/types"
+  },
+  "include": ["src/**/*.ts", "test/**/*.ts", "test/**/*.tsx"]
+}

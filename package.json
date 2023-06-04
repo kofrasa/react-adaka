@@ -1,0 +1,83 @@
+{
+  "name": "react-adaka",
+  "version": "0.0.0",
+  "description": "High-precision state management for React using adaka",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
+  "types": "./dist/types/index.d.ts",
+  "scripts": {
+    "prepare": "husky install",
+    "docs": "typedoc --entryPointStrategy expand src/ && touch docs/.nojekyll",
+    "compile": "tsc && tsc --build tsconfig.cjs.json",
+    "build": "npm run clean && npm run compile && node ./build.js",
+    "clean": "rm -fr build",
+    "test": "jest",
+    "release": "npm run test && npm run build && cd build && npm publish",
+    "prepublishOnly": "echo \"use 'npm run release'\" && false",
+    "postinstall": "node ./build.js install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kofrasa/react-adaka.git"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "peerDependencies": {
+    "adaka": "^0.0.0",
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^14.0.0",
+    "@types/jest": "^29.2.5",
+    "@types/node": "^18.11.18",
+    "@types/react": "18.2.7",
+    "@typescript-eslint/eslint-plugin": "5.54.0",
+    "@typescript-eslint/parser": "^5.48.0",
+    "adaka": "^0.0.0",
+    "eslint": "8.40.0",
+    "eslint-config-prettier": "8.8.0",
+    "eslint-plugin-import": "2.27.5",
+    "eslint-plugin-prettier": "4.2.1",
+    "eslint-plugin-simple-import-sort": "10.0.0",
+    "eslint-plugin-unused-imports": "2.0.0",
+    "glob": "^10.2.6",
+    "husky": "^8.0.3",
+    "jest": "^29.5.0",
+    "jest-environment-jsdom": "^29.5.0",
+    "jest-ts-auto-mock": "^2.0.0",
+    "lint-staged": "^13.2.2",
+    "perf_hooks": "^0.0.1",
+    "prettier": "^2.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "ts-auto-mock": "3.5.0",
+    "ts-jest": "^29.1.0",
+    "ts-node": "^10.9.1",
+    "ts-patch": "^2.1.0",
+    "typedoc": "^0.24.7",
+    "typescript": "^4.9.5",
+    "ttypescript": "^1.5.15"
+  },
+  "keywords": [
+    "state",
+    "query",
+    "project",
+    "immutable",
+    "observable",
+    "react"
+  ],
+  "author": {
+    "name": "Francis Asante",
+    "email": "kofrasa@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kofrasa/react-adaka/issues"
+  },
+  "lint-staged": {
+    "*.ts": "eslint --cache --fix"
+  }
+}
