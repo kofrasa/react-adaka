@@ -1,6 +1,6 @@
 {
   "name": "react-adaka",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "High-precision state management for React using adaka",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
@@ -26,7 +26,8 @@
     "CHANGELOG.md"
   ],
   "peerDependencies": {
-    "adaka": "^0.0.2",
+    "adaka": "^0.0.5",
+    "mingo": "^6.4.2",
     "react": "^18.2.0"
   },
   "devDependencies": {

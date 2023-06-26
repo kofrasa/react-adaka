@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.0.2 / 2023-06-26
+- Upgrade to `adaka@0.0.5` and `mingo@6.4.2`.
+
 ## 0.0.1 / 2023-06-08
 - Upgrade to `adaka@0.0.2`.
 
