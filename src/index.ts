@@ -1,6 +1,6 @@
 import { Selector, Store } from "adaka";
 import type { Callback, RawObject } from "mingo/types";
-import { useSyncExternalStore } from "react"; /*eslint-disable-line import/no-unresolved*/
+import { useSyncExternalStore } from "use-sync-external-store";
 
 // re-export the createStore function.
 export { createStore } from "adaka";

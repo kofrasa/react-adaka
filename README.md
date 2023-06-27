@@ -1,4 +1,5 @@
 # react-adaka
+
 High-precision state management for React using [adaka](https://npmjs.com/package/adaka).
 
 ![license](https://img.shields.io/github/license/kofrasa/react-adaka)
@@ -12,42 +13,50 @@ High-precision state management for React using [adaka](https://npmjs.com/packag
 
 `npm i react-adaka adaka mingo`
 
-Requires peer dependencies `react >=18.2.0`, `adaka >= 0.0.5`, and `mingo >= 6.4.2`.
+Requires peer dependencies `adaka >= 0.0.5` and `mingo >= 6.4.2`.
 
 ## Usage
 
 Define your store and selector.
+
 ```ts
 // store.ts
-import { createStore, createSelectorHook } from "react-adaka"
+import { createStore, createSelectorHook } from "react-adaka";
 
 // first create your store
 export const store = createStore({
   status: "error",
-  errors: [
-    { type:"api", message: "unknown error" }
-  ],
+  errors: [{ type: "api", message: "unknown error" }]
 });
 
 // create a selector hook. need only per store.
-export const useSelector = createSelectorHook(store)
+export const useSelector = createSelectorHook(store);
 ```
 
 Now use the selector.
+
 ```ts
 // component.ts
-import { useSelector } from "./store"
+import { useSelector } from "./store";
 
 // use the hook inside your React component.
 function ShowErrorTypes() {
   // select the types of errors only when the status is in "error".
-  const { errorTypes } = useSelector({ errorTypes: "$errors.type" }, { status: "error"})
+  const { errorTypes } = useSelector(
+    { errorTypes: "$errors.type" },
+    { status: "error" }
+  );
 
-  return errorTypes ? <div>Issues found: {errorTypes.join("\n")} </div> : <div/>
+  return errorTypes ? (
+    <div>Issues found: {errorTypes.join("\n")} </div>
+  ) : (
+    <div />
+  );
 }
 
-export default ShowErrorTypes
+export default ShowErrorTypes;
 ```
+
 ## License
 
 MIT

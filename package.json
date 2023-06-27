@@ -27,14 +27,17 @@
   ],
   "peerDependencies": {
     "adaka": "^0.0.5",
-    "mingo": "^6.4.2",
-    "react": "^18.2.0"
+    "mingo": "^6.4.2"
+  },
+  "dependencies": {
+    "use-sync-external-store": "^1.0.0"
   },
   "devDependencies": {
     "@testing-library/react": "^14.0.0",
     "@types/jest": "^29.2.5",
     "@types/node": "^18.11.18",
     "@types/react": "18.2.7",
+    "@types/use-sync-external-store": "0.0.3",
     "@typescript-eslint/eslint-plugin": "5.54.0",
     "@typescript-eslint/parser": "^5.48.0",
     "adaka": "^0.0.0",
