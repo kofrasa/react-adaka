@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.0.3 / 2023-06-27
+## 0.0.3 / 2023-06-28
 - Switch from `react` peer dependency to `use-sync-external-store`.
 
 ## 0.0.2 / 2023-06-26

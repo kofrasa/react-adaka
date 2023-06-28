@@ -1,6 +1,10 @@
 import React from "react";
 import { render, fireEvent } from "@testing-library/react";
 import { createStore, createSelectorHook } from "../src";
+import { $toString } from "mingo/operators/expression";
+import { useOperators, OperatorType } from "mingo/core";
+
+useOperators(OperatorType.EXPRESSION, { $toString });
 
 const store = createStore({
   a: false,
