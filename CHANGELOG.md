@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.0.4 / 2023-09-26
+- Pin peer dependencies to `mingo@6.x.x` and `adaka@0.0.x`.
+
 ## 0.0.3 / 2023-06-28
 - Switch from `react` peer dependency to `use-sync-external-store`.
 
