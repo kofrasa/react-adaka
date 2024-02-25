@@ -4,7 +4,7 @@ High-precision state management for React using [adaka](https://npmjs.com/packag
 
 ![license](https://img.shields.io/github/license/kofrasa/react-adaka)
 [![version](https://img.shields.io/npm/v/react-adaka)](https://www.npmjs.org/package/react-adaka)
-[![build](https://github.com/kofrasa/react-adaka/actions/workflows/node.js.yml/badge.svg)](https://github.com/kofrasa/react-adaka/actions/workflows/node.js.yml)
+[![build](https://github.com/kofrasa/react-adaka/actions/workflows/build.yml/badge.svg)](https://github.com/kofrasa/react-adaka/actions/workflows/build.yml)
 ![issues](https://img.shields.io/github/issues/kofrasa/react-adaka)
 [![codecov](https://img.shields.io/codecov/c/github/kofrasa/react-adaka)](https://codecov.io/gh/kofrasa/react-adaka)
 [![npm downloads](https://img.shields.io/npm/dm/react-adaka)](https://www.npmjs.org/package/react-adaka)

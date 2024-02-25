@@ -22,15 +22,12 @@
   },
   "files": [
     "LICENSE",
-    "README.md",
-    "CHANGELOG.md"
+    "README.md"
   ],
-  "peerDependencies": {
-    "adaka": "^0.0.x",
-    "mingo": "^6.x.x"
-  },
   "dependencies": {
-    "use-sync-external-store": "^1.0.0"
+    "adaka": "^0.0.7",
+    "mingo": "^6.4.11",
+    "use-sync-external-store": "^1.2.0"
   },
   "devDependencies": {
     "@testing-library/react": "^14.0.0",
@@ -53,7 +50,6 @@
     "jest-environment-jsdom": "^29.5.0",
     "jest-ts-auto-mock": "^2.0.0",
     "lint-staged": "^13.2.2",
-    "mingo": "^6.x.x",
     "perf_hooks": "^0.0.1",
     "prettier": "^2.8.1",
     "react": "^18.2.0",
