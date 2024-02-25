@@ -22,7 +22,8 @@
   },
   "files": [
     "LICENSE",
-    "README.md"
+    "README.md",
+    "CHANGELOG.md"
   ],
   "dependencies": {
     "adaka": "^0.0.7",
