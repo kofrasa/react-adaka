@@ -11,9 +11,7 @@ High-precision state management for React using [adaka](https://npmjs.com/packag
 
 ## Install
 
-`npm i react-adaka adaka mingo`
-
-Requires peer dependencies `adaka >= 0.0.5` and `mingo >= 6.4.2`.
+`npm i react-adaka`
 
 ## Usage
 
