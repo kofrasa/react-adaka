@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.0.5 / 2024-02-26
+- Update dependencies
+
 ## 0.0.4 / 2023-09-26
 - Pin peer dependencies to `mingo@6.x.x` and `adaka@0.0.x`.
 
