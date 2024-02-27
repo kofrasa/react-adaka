@@ -26,8 +26,7 @@
     "CHANGELOG.md"
   ],
   "dependencies": {
-    "adaka": "^0.0.7",
-    "mingo": "^6.4.11",
+    "adaka": "^0.0.8",
     "use-sync-external-store": "^1.2.0"
   },
   "devDependencies": {
