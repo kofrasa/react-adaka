@@ -14,7 +14,8 @@
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "noEmit": true,
-    "declarationDir": "./build/dist/types"
+    "declarationDir": "./build/dist/types",
+    "skipLibCheck": true,
   },
   "include": ["src/**/*.ts", "test/**/*.ts", "test/**/*.tsx"]
 }
