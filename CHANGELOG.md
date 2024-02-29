@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.0.9 / 2024-02-29
+- Update `adaka@0.0.9` and sync package versions moving forward.
+
 ## 0.0.5 / 2024-02-26
 - Update dependencies
 

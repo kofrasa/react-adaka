@@ -1,6 +1,6 @@
 {
   "name": "react-adaka",
-  "version": "0.0.5",
+  "version": "0.0.9",
   "description": "High-precision state management for React using adaka",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
@@ -26,7 +26,7 @@
     "CHANGELOG.md"
   ],
   "dependencies": {
-    "adaka": "^0.0.8",
+    "adaka": "0.0.9",
     "use-sync-external-store": "^1.2.0"
   },
   "devDependencies": {
@@ -37,7 +37,6 @@
     "@types/use-sync-external-store": "0.0.3",
     "@typescript-eslint/eslint-plugin": "5.54.0",
     "@typescript-eslint/parser": "^5.48.0",
-    "adaka": "^0.0.x",
     "eslint": "8.40.0",
     "eslint-config-prettier": "8.8.0",
     "eslint-plugin-import": "2.27.5",
