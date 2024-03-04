@@ -2,6 +2,7 @@
 
 ## 0.0.10 / 2024-03-04
 - Update to `adaka@0.0.10`.
+- Switch to useSyncExternalStore/shim to support older react.
 
 ## 0.0.9 / 2024-02-29
 - Update `adaka@0.0.9` and sync package versions moving forward.

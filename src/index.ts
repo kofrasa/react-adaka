@@ -1,6 +1,6 @@
 import { Store } from "adaka";
 import type { AnyVal, RawObject } from "mingo/types";
-import { useSyncExternalStore } from "use-sync-external-store";
+import { useSyncExternalStore } from "use-sync-external-store/shim";
 
 // re-export the createStore function.
 export { createStore } from "adaka";
